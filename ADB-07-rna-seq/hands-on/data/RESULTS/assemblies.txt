@@ -1,0 +1,6 @@
+/SAMPLES/GSM794483_C1_R1.transcripts.gtf
+/SAMPLES/GSM794484_C1_R2.transcripts.gtf
+/SAMPLES/GSM794485_C1_R3.transcripts.gtf
+/SAMPLES/GSM794486_C2_R1.transcripts.gtf
+/SAMPLES/GSM794487_C2_R2.transcripts.gtf
+/SAMPLES/GSM794488_C2_R3.transcripts.gtf

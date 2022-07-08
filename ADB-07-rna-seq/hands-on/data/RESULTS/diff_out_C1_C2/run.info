@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffdiff /merged_asm/merged.gtf /SAMPLES/GSM794483_C1_R1.accepted_hits.bam,/SAMPLES/GSM794484_C1_R2.accepted_hits.bam,/SAMPLES/GSM794485_C1_R3.accepted_hits.bam /SAMPLES/GSM794486_C2_R1.accepted_hits.bam,/SAMPLES/GSM794487_C2_R2.accepted_hits.bam,/SAMPLES/GSM794488_C2_R3.accepted_hits.bam --labels C1,C2 -b /SAMPLES/Drosophila_melanogaster.BDGP6.dna.toplevel.fa -p 8 -o /RESULTS/diff_out_C1_C2 
+version	2.2.1
+SVN_revision	4237
+boost_version	104700

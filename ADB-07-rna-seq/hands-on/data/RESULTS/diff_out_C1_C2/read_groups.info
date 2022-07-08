@@ -1,0 +1,7 @@
+file	condition	replicate_num	total_mass	norm_mass	internal_scale	external_scale
+/SAMPLES/GSM794483_C1_R1.accepted_hits.bam	C1	0	9.27166e+06	9.26268e+06	1.02736	1
+/SAMPLES/GSM794484_C1_R2.accepted_hits.bam	C1	1	9.27073e+06	9.26268e+06	1.02498	1
+/SAMPLES/GSM794485_C1_R3.accepted_hits.bam	C1	2	9.28002e+06	9.26268e+06	1.02686	1
+/SAMPLES/GSM794486_C2_R1.accepted_hits.bam	C2	0	9.2719e+06	9.26268e+06	0.975768	1
+/SAMPLES/GSM794487_C2_R2.accepted_hits.bam	C2	1	9.28093e+06	9.26268e+06	0.976687	1
+/SAMPLES/GSM794488_C2_R3.accepted_hits.bam	C2	2	9.27333e+06	9.26268e+06	0.979739	1
