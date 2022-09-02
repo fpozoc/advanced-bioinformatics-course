@@ -3,13 +3,14 @@
 **Transcriptome Assembly: Case study of bacteria *Listeria monocytogenes***
 
 *Fernando Pozo*
-*Wednesday, 2nd September, 2020*
+*Friday, 2nd September, 2022*
 
 ---
 
 ## Table of Contents
 
-- [Transcriptome Assembly: Case study of bacteria *Listeria monocytogenes*](#transcriptome-assembly-case-study-of-bacteria-listeria-monocytogenes)
+- [ADB-02-ngs-linux (hands-on)](#adb-02-ngs-linux-hands-on)
+  - [Table of Contents](#table-of-contents)
   - [1. Setting up our working environment](#1-setting-up-our-working-environment)
     - [1.1. Organism of interest: *Listeria monocytogenes*](#11-organism-of-interest-listeria-monocytogenes)
     - [1.2. Sequencing data: How to get it](#12-sequencing-data-how-to-get-it)
@@ -21,7 +22,7 @@
   - [3. Data preprocesing](#3-data-preprocesing)
     - [3.1. Quality control with FastQC](#31-quality-control-with-fastqc)
     - [3.2. Analysis of FastQC results](#32-analysis-of-fastqc-results)
-    - [3.3. Trimming reads with Trimmomatic](#33-trimming-reads-with-trimmomatic)
+    - [3.3. Trimming reads  with Trimmomatic](#33-trimming-reads--with-trimmomatic)
   - [4. Read mapping to a reference genome](#4-read-mapping-to-a-reference-genome)
     - [4.1. Build an index and read mapping with Bowtie 2](#41-build-an-index-and-read-mapping-with-bowtie-2)
     - [4.2. Converting and sorting reads with Samtools](#42-converting-and-sorting-reads-with-samtools)
