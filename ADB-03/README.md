@@ -3,7 +3,7 @@
 **RNA-seq**
 
 *Fernando Pozo*
-*Monday, 7th September, 2020*
+*Monday, 5th September, 2022*
 
 ---
 
