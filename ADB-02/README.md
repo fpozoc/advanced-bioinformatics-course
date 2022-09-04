@@ -1,4 +1,4 @@
-# ADB-02-ngs-linux (hands-on)
+# ADB-02 (hands-on)
 
 **Transcriptome Assembly: Case study of bacteria *Listeria monocytogenes***
 
@@ -9,7 +9,7 @@
 
 ## Table of Contents
 
-- [ADB-02-ngs-linux (hands-on)](#adb-02-ngs-linux-hands-on)
+- [ADB-02 (hands-on)](#adb-02-hands-on)
   - [Table of Contents](#table-of-contents)
   - [1. Setting up our working environment](#1-setting-up-our-working-environment)
     - [1.1. Organism of interest: *Listeria monocytogenes*](#11-organism-of-interest-listeria-monocytogenes)

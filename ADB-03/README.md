@@ -1,4 +1,4 @@
-# ADB-07-ngs-linux (hands-on)
+# ADB-07 (hands-on)
 
 **RNA-seq**
 
@@ -9,7 +9,7 @@
 
 ## Table of Contents
 
-- [ADB-07-ngs-linux (hands-on)](#adb-07-ngs-linux-hands-on)
+- [ADB-07 (hands-on)](#adb-07-hands-on)
   - [Table of Contents](#table-of-contents)
   - [1. Setting up our working environment](#1-setting-up-our-working-environment)
     - [1.1. Organism of interest: *Droshophila melanogaster*](#11-organism-of-interest-droshophila-melanogaster)
