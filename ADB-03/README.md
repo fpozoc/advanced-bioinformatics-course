@@ -188,6 +188,12 @@ cuffdiff -L exp1,exp2 -c 200 -o /RESULTS/diff_out /RESULTS/compare/cuffcmp.combi
 
 In order to optimise the time, step 1 (Align the RNA-seq reads to the genome) and step 2 (Assemble expressed genes and transcripts) has been already generated.
 
+First, go out from Docker OS:
+
+```
+exit
+```
+
 Then, download both reference and fasta file.
 
 ```sh
@@ -199,6 +205,17 @@ Create a file called assemblies.txt that lists the assembly file for each sample
 
 ```sh
 echo $'/SAMPLES/GSM794483_C1_R1.transcripts.gtf\n/SAMPLES/GSM794484_C1_R2.transcripts.gtf\n/SAMPLES/GSM794485_C1_R3.transcripts.gtf\n/SAMPLES/GSM794486_C2_R1.transcripts.gtf\n/SAMPLES/GSM794487_C2_R2.transcripts.gtf\n/SAMPLES/GSM794488_C2_R3.transcripts.gtf' > ~/RESULTS/assemblies.txt
+```
+
+And go back to Docker after downloading and creating the file:
+
+```sh
+docker run --rm  -v $SAMPLES_LOCAL:$SAMPLES_DOCKER -v $RESULTS_LOCAL:$RESULTS_DOCKER -it osvaldogc/ufv:2.0 /bin/bash
+```
+
+Change path to root:
+```sh
+cd ..
 ```
 
 Identify differentially expressed genes and transcripts
