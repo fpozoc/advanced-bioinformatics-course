@@ -191,8 +191,8 @@ In order to optimise the time, step 1 (Align the RNA-seq reads to the genome) an
 Then, download both reference and fasta file.
 
 ```sh
-curl ftp://ftp.ensembl.org/pub/release-90/fasta/drosophila_melanogaster/dna//Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz | gunzip > ~/SAMPLES/Drosophila_melanogaster.BDGP6.dna.toplevel.fa
-curl ftp://ftp.ensembl.org/pub/release-90/gtf/drosophila_melanogaster//Drosophila_melanogaster.BDGP6.90.gtf.gz | gunzip > ~/SAMPLES/Drosophila_melanogaster.BDGP6.90.gtf
+curl ftp://ftp.ensembl.org/pub/release-90/fasta/drosophila_melanogaster/dna/Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz | gunzip > ~/SAMPLES/Drosophila_melanogaster.BDGP6.dna.toplevel.fa
+curl ftp://ftp.ensembl.org/pub/release-90/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.90.gtf.gz | gunzip > ~/SAMPLES/Drosophila_melanogaster.BDGP6.90.gtf
 ```
 
 Create a file called assemblies.txt that lists the assembly file for each sample.
