@@ -260,7 +260,7 @@ CummeRbund volcano plots reveal genes, transcripts, TSS groups or CDS groups tha
 
 ```R
 pdf(file="/RESULTS/volcano.pdf")
-csVolcano(genes(cuff_data), 'c1', 'c2')
+csVolcano(genes(cuff_data), 'C1', 'C2')
 dev.off()
 ```
 
