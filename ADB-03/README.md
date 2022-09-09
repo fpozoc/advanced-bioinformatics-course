@@ -77,7 +77,7 @@ wget --output-document ~/SAMPLES/sample.tar.gz https://github.com/fpozoc/advance
 and uncompressing:
 
 ```sh
-tar -xf ~/SAMPLES/diff_out_C1_C2.tar.gz -C ~/SAMPLES
+tar -xf ~/SAMPLES/diff_out_C1_C2.tar.gz -C ~/RESULTS
 tar -xf ~/SAMPLES/sample.tar.gz -C ~/SAMPLES
 ```
 
